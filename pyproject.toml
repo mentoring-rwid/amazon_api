@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "amazon-api"
+version = "0.1.0"
+description = "Amazon Unofficial API"
+authors = ["Feri Lukmansyah <47948861+perymerdeka@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Django = "^4.2.7"
+djangorestframework = "^3.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
